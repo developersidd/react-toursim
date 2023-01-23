@@ -1,0 +1,14 @@
+.tour-item{
+    transition: all 0.7s ease-in-out;
+}
+.tour-item button{
+    transition: all 0.4s ease-in-out;
+}
+
+.tour-item:hover{
+    transform: translateY(-1rem);
+}
+
+.tour-item:hover button {
+background-color: crimson;
+}
